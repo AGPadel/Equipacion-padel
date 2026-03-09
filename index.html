@@ -246,6 +246,14 @@
     flex-wrap: wrap;
     align-items: center;
   }
+  @media (max-width: 480px) {
+    .product-controls {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 6px 10px;
+      align-items: center;
+    }
+  }
   .product-controls select {
     background: var(--gris-claro);
     color: var(--texto);
